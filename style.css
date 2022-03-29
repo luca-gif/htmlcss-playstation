@@ -13,9 +13,13 @@ body{
   background-image: url(img/jumbo-bg.png);
   background-position: center;
   background-size: cover;
-  
+  margin-top: 80px;
 }
 
-.jumbotron img{
-  
+.jumbotron .jumbo-text{
+  width: 400px;
+}
+
+.jumbotron .jumbo-text img{
+  width: 300px;
 }
