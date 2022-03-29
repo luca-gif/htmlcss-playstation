@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
@@ -20,18 +21,123 @@
   <!-- NAV -->
 
   <header>
-    <nav class="container-fluid w-100 position-fixed debug">
-      <div class="row justify-content-between align-items-center">
-        <div class="col-10 col-md-8 debug">sx</div>
-        <div class="col-4 debug text-end d-none d-md-block">dx</div>
-        <div class="col-2 debug text-end d-md-none">menu</div>
-      </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/play_logo.svg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Giochi
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Hardware
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Servizi
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Novit&aacute;
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Fai acquisti
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Supporto
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                My PlayStation
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <button class="btn btn-dark rounded-pill mx-3">Accedi</button>
+          <a href="#"><i class="bi bi-search text-black"></i></a>
+
+        </div>
     </nav>
 
     <!-- JUMBOTRON -->
 
-    <div class="jumbotron debug">
+    <div class="jumbotron">
       <div class="container debug">
+
+        <div class="row">
+          <div class="col-4">
+
+
+          </div>
+        </div>
 
 
       </div>
@@ -72,6 +178,53 @@
     </section>
 
     <!-- Sfondo a tutto schermo -->
+
+    <section class="container-fluid debug">
+
+      wallpaper
+
+    </section>
+
+    <!-- NUOVE USCITE -->
+
+    <section class="new-releases container-fluid debug">
+
+      <h2>Nuove uscite</h2>
+
+      <div class="row">
+
+        <div class="col-6 col-sm-4 col-lg-2 debug">Tony Hawks</div>
+        <div class="col-6 col-sm-4 col-lg-2 debug">Crush</div>
+        <div class="col-6 col-sm-4 col-lg-2 debug">Tony Hawks</div>
+        <div class="col-6 col-sm-4 col-lg-2 debug">Crush</div>
+        <div class="col-6 col-sm-4 col-lg-2 debug">Tony Hawks</div>
+        <div class="col-6 col-sm-4 col-lg-2 debug">Crush</div>
+        <div class="col-6 col-sm-4 col-lg-2 debug">Tony Hawks</div>
+        <div class="col-6 col-sm-4 col-lg-2 debug">Crush</div>
+        <div class="col-6 col-sm-4 col-lg-2 debug">Tony Hawks</div>
+        <div class="col-6 col-sm-4 col-lg-2 debug">Crush</div>
+        <div class="col-6 col-sm-4 col-lg-2 debug">Tony Hawks</div>
+        <div class="col-6 col-sm-4 col-lg-2 debug">Crush</div>
+
+      </div>
+    </section>
+
+    <!-- ESPLORA PS4 -->
+
+    <section class="container debug">
+
+      <h2>Esplora PlayStation 4</h2>
+
+      <div class="row">
+
+        <div class="col-12 col-md-4 debug">ps4</div>
+        <div class="col-12 col-md-4 debug">ps4</div>
+        <div class="col-12 col-md-4 debug">ps4</div>
+
+      </div>
+
+    </section>
+
 
   </main>
 

@@ -9,5 +9,13 @@ body{
 }
 
 .jumbotron{
-  height: 400px;
+  height: 600px;
+  background-image: url(img/jumbo-bg.png);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.jumbotron img{
+  
 }
