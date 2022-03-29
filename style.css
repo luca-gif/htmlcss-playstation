@@ -3,7 +3,6 @@
   border: 1px solid black;
 }
 
-
 body{
   font-family: Helvetica, sans-serif;
 }
@@ -22,4 +21,28 @@ body{
 
 .jumbotron .jumbo-text img{
   width: 300px;
+}
+
+/* Main */
+
+.lm-card img{
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+.lm-ps5 .lm-higlight{
+  color: #0b77cf;
+  font-size: 13px;
+}
+
+/* Text grey */
+
+.lm-subtitle{
+  color: grey;
+}
+
+/* Immagini 100% */
+
+img{
+  width: 100%;
 }
