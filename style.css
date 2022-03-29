@@ -7,12 +7,15 @@ body{
   font-family: Helvetica, sans-serif;
 }
 
+header .jumbotron{
+  background-image: url(img/jumbo-bg.png);
+  margin-top: 80px;
+}
+
 .jumbotron{
   height: 600px;
-  background-image: url(img/jumbo-bg.png);
   background-position: center;
   background-size: cover;
-  margin-top: 80px;
 }
 
 .jumbotron .jumbo-text{
@@ -35,6 +38,10 @@ body{
   font-size: 13px;
 }
 
+main .jumbotron{
+  background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+}
+
 /* Text grey */
 
 .lm-subtitle{
@@ -45,4 +52,11 @@ body{
 
 img{
   width: 100%;
+}
+
+/* Hover */
+
+.lm-ps5-gadget:hover{
+  opacity: 1 !important;
+  cursor: pointer;
 }
