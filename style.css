@@ -46,6 +46,21 @@ main section.lm-new-releases{
   background-color: #1f1f1f;
 }
 
+/* PlayStation Plus */
+
+section.lm-plus{
+  background-color: #bdbcba;
+}
+
+section.lm-plus .lm-plus-text button{
+  color: #0b5ed7;
+  background-color: rgb(217, 218, 220);
+}
+
+section img.lm-ps-logo{
+  width: 400px;
+}
+
 /* Text grey */
 
 .lm-subtitle{
