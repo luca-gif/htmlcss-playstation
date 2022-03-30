@@ -3,6 +3,10 @@
   border: 1px solid black;
 }
 
+a{
+  color: white;
+}
+
 body{
   font-family: Helvetica, sans-serif;
 }
@@ -57,6 +61,8 @@ section.lm-plus .lm-plus-text button{
   background-color: rgb(217, 218, 220);
 }
 
+/* PS Now */
+
 section img.lm-ps-logo{
   width: 400px;
 }
@@ -64,6 +70,15 @@ section img.lm-ps-logo{
 section.lm-ps-now{
   background-color: #161c3c;
 }
+
+/* Social Media */
+
+section.lm-social-media{
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Footer */
 
 footer {
   background-color: #00439c;
@@ -78,18 +93,19 @@ footer .lm-footer-top ul{
   padding: 0;
 }
 
-footer .lm-footer-logo{
+footer .lm-footer-top-logo{
+  width: 150px;
+}
+
+footer .lm-footer-bottom-logo{
   width: 200px;
 }
 
-footer .lm-sublogo{
+footer .lm-sublogo {
   width: 30px;
   padding: 40px 0;
 }
 
-a{
-  color: white;
-}
 
 /* Text grey */
 
