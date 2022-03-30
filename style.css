@@ -3,17 +3,27 @@
   border: 1px solid black;
 }
 
-a{
-  color: white;
-}
-
 body{
   font-family: Helvetica, sans-serif;
 }
 
+ul li a{
+  color: white;
+}
+
+
+header .lm-sony-bar{
+  background-color: black;
+}
+
+header .lm-sony-bar img{
+  width: 120px;
+}
+
+
 header .jumbotron{
   background-image: url(img/jumbo-bg.png);
-  margin-top: 80px;
+  margin-top: 96px;
 }
 
 .jumbotron{
@@ -101,11 +111,10 @@ footer .lm-footer-bottom-logo{
   width: 200px;
 }
 
-footer .lm-sublogo {
-  width: 30px;
-  padding: 40px 0;
+footer .lm-sublogo{
+  width: 35px;
+  padding: 50px 8px;
 }
-
 
 /* Text grey */
 
@@ -119,9 +128,25 @@ img{
   width: 100%;
 }
 
-/* Hover */
+/* Hover opacità */
 
 .lm-ps5-gadget:hover{
   opacity: 1 !important;
   cursor: pointer;
 }
+
+/* Creo bordino blu */
+
+.lm-ps5-gadget:hover{
+  border-bottom: 2px solid #0b5ed7;
+}
+
+/* Transition */
+
+section .lm-active:hover{
+  transform: translateY(-10px);
+  transition: .2s;
+}
+
+
+
