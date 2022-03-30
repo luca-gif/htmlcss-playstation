@@ -56,6 +56,10 @@ main .jumbotron{
   background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
 }
 
+.lm-ps5-gadget{
+  border: 5px solid transparent;
+}
+
 main section.lm-new-releases{
   background-color: #1f1f1f;
 }
