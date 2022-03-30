@@ -61,6 +61,10 @@ section img.lm-ps-logo{
   width: 400px;
 }
 
+section.lm-ps-now{
+  background-color: #161c3c;
+}
+
 /* Text grey */
 
 .lm-subtitle{
