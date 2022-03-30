@@ -65,6 +65,32 @@ section.lm-ps-now{
   background-color: #161c3c;
 }
 
+footer {
+  background-color: #00439c;
+}
+
+footer .lm-footer-top li{
+  line-height: 35px;
+}
+
+footer .lm-footer-top ul{
+  list-style: none;
+  padding: 0;
+}
+
+footer .lm-footer-logo{
+  width: 200px;
+}
+
+footer .lm-sublogo{
+  width: 30px;
+  padding: 40px 0;
+}
+
+a{
+  color: white;
+}
+
 /* Text grey */
 
 .lm-subtitle{
