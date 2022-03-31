@@ -1,101 +1,101 @@
-.debug{
+.debug {
   background-color: rgba(255, 0, 0, .4);
   border: 1px solid black;
 }
 
-body{
+body {
   font-family: Helvetica, sans-serif;
 }
 
-ul li a{
+ul li a {
   color: white;
 }
 
-header nav .lm-nav-search{
+header nav .lm-nav-search {
   width: 30px;
 }
 
 
-header .lm-sony-bar{
+header .lm-sony-bar {
   background-color: black;
 }
 
-header .lm-sony-bar img{
+header .lm-sony-bar img {
   width: 100px;
 }
 
 
-header .jumbotron{
+header .jumbotron {
   background-image: url(img/jumbo-bg.png);
   margin-top: 116px;
   height: 700px;
 }
 
-.jumbotron{
+.jumbotron {
   background-position: center;
   background-size: cover;
 }
 
-.jumbotron .jumbo-text{
+.jumbotron .jumbo-text {
   width: 400px;
 }
 
-.jumbotron .jumbo-text img{
+.jumbotron .jumbo-text img {
   width: 300px;
 }
 
 /* Main */
 
-.lm-card img{
+.lm-card img {
   border-radius: 15px;
   margin: 20px 0;
 }
 
-.lm-ps5 .lm-higlight{
+.lm-ps5 .lm-higlight {
   color: #0b77cf;
   font-size: 13px;
 }
 
-main .jumbotron{
+main .jumbotron {
   background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
 }
 
-main .jumbotron h2{
+main .jumbotron h2 {
   font-size: 40px;
 }
 
-.lm-ps5-gadget{
+.lm-ps5-gadget {
   border: 5px solid transparent;
 }
 
-main section.lm-new-releases{
+main section.lm-new-releases {
   background-color: #1f1f1f;
 }
 
 /* PlayStation Plus */
 
-section.lm-plus{
+section.lm-plus {
   background-color: #bdbcba;
 }
 
-section.lm-plus .lm-plus-text button{
+section.lm-plus .lm-plus-text button {
   color: #0b5ed7;
   background-color: rgb(217, 218, 220);
 }
 
 /* PS Now */
 
-section img.lm-ps-logo{
+section img.lm-ps-logo {
   width: 400px;
 }
 
-section.lm-ps-now{
+section.lm-ps-now {
   background-color: #161c3c;
 }
 
 /* Social Media */
 
-section.lm-social-media{
+section.lm-social-media {
   max-width: 700px;
   margin: auto;
 }
@@ -106,79 +106,106 @@ footer {
   background-color: #00439c;
 }
 
-footer .lm-footer-top li{
+footer .lm-footer-top li {
   line-height: 35px;
 }
 
-footer .lm-footer-top ul{
+footer .lm-footer-top ul {
   list-style: none;
   padding: 0;
 }
 
-footer .lm-footer-top-logo{
+footer .lm-footer-top-logo {
   width: 150px;
 }
 
-footer .lm-footer-bottom-logo{
+footer .lm-footer-bottom-logo {
   width: 200px;
 }
 
-footer .lm-sublogo{
+footer .lm-sublogo {
   width: 35px;
   padding: 50px 8px;
 }
 
 /* Text grey */
 
-.lm-subtitle{
+.lm-subtitle {
   color: grey;
 }
 
 /* Immagini 100% */
 
-img{
+img {
   width: 100%;
 }
 
 /* Hover opacità */
 
-.lm-ps5-gadget:hover{
+.lm-ps5-gadget:hover {
   opacity: 1 !important;
   cursor: pointer;
 }
 
 /* Creo bordino blu */
 
-.lm-ps5-gadget:hover{
+.lm-ps5-gadget:hover {
   border-bottom: 2px solid #0b5ed7;
 }
 
 /* Transition */
 
-section .lm-active:hover{
+section .lm-active:hover {
   transform: translateY(-10px);
-  transition: .2s;
+  transition: .5s;
 }
 
 /* Bottom */
 
-.btn-dark:hover{
+.btn-dark:hover {
   box-shadow: inset 0 0 0 2px #fff;
   opacity: .7;
 }
 
-.btn-danger:hover{
+.btn-danger:hover {
   box-shadow: inset 0 0 0 2px black;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
   box-shadow: inset 0 0 0 2px #fff;
 }
 
-.lm-ps-now .btn-light:hover{
+.lm-ps-now .btn-light:hover {
   box-shadow: inset 0 0 0 2px #161c3c;
 }
 
-.lm-btn:hover{
+.lm-btn:hover {
   box-shadow: inset 0 0 1px 2px #bdbcba;
+}
+
+/* Chevron Nav */
+
+.lm-chevron {
+  width: 10px;
+}
+
+.lm-chevron-active {
+  width: 0;
+}
+
+.nav-item:hover .lm-chevron {
+  display: none;
+}
+
+
+.nav-item:hover .lm-chevron-active {
+  width: 10px;
+}
+
+.nav-item:hover .lm-chevron-items {
+  width: 100px;
+}
+
+.nav-link:hover {
+  color: #0b5ed7 !important;
 }
