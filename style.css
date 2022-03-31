@@ -185,26 +185,6 @@ section .lm-active:hover {
 
 /* Chevron Nav */
 
-.lm-chevron {
-  width: 10px;
-}
-
-.lm-chevron-active {
-  width: 0;
-}
-
-.nav-item:hover .lm-chevron {
-  display: none;
-}
-
-
-.nav-item:hover .lm-chevron-active {
-  width: 10px;
-}
-
-.nav-item:hover .lm-chevron-items {
-  width: 100px;
-}
 
 .nav-link:hover {
   color: #0b5ed7 !important;
