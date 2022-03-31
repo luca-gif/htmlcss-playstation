@@ -11,23 +11,27 @@ ul li a{
   color: white;
 }
 
+header nav .lm-nav-search{
+  width: 30px;
+}
+
 
 header .lm-sony-bar{
   background-color: black;
 }
 
 header .lm-sony-bar img{
-  width: 120px;
+  width: 100px;
 }
 
 
 header .jumbotron{
   background-image: url(img/jumbo-bg.png);
-  margin-top: 96px;
+  margin-top: 116px;
+  height: 700px;
 }
 
 .jumbotron{
-  height: 600px;
   background-position: center;
   background-size: cover;
 }
@@ -54,6 +58,10 @@ header .jumbotron{
 
 main .jumbotron{
   background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+main .jumbotron h2{
+  font-size: 40px;
 }
 
 .lm-ps5-gadget{
@@ -152,5 +160,25 @@ section .lm-active:hover{
   transition: .2s;
 }
 
+/* Bottom */
 
+.btn-dark:hover{
+  box-shadow: inset 0 0 0 2px #fff;
+  opacity: .7;
+}
 
+.btn-danger:hover{
+  box-shadow: inset 0 0 0 2px black;
+}
+
+.btn-primary:hover{
+  box-shadow: inset 0 0 0 2px #fff;
+}
+
+.lm-ps-now .btn-light:hover{
+  box-shadow: inset 0 0 0 2px #161c3c;
+}
+
+.lm-btn:hover{
+  box-shadow: inset 0 0 1px 2px #bdbcba;
+}
